@@ -12,7 +12,6 @@ tb-common-utils/tbnet/ltmain.sh
 tb-common-utils/tbnet/missing
 tb-common-utils/tbnet/src/Makefile.in
 tb-common-utils/tbnet/src/test/Makefile.in
-tb-common-utils/tbnet/test/Makefile.in
 tb-common-utils/tbsys/COPYING
 tb-common-utils/tbsys/INSTALL
 tb-common-utils/tbsys/aclocal.m4
@@ -40,6 +39,9 @@ tb-common-utils/tbsys/test/testthread
 tb-common-utils/tbsys/test/testthreadpool
 tb-common-utils/tbsys/test/testtimer
 tb-common-utils/tbsys/test/testwarningbuffer
+tb-common-utils/tbnet/test/echoclient
+tb-common-utils/tbnet/test/echoserver
+tb-common-utils/tbnet/test/httpserver
 
 .libs/
 .deps/
