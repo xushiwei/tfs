@@ -41,6 +41,27 @@ tb-common-utils/tbnet/test/echoclient
 tb-common-utils/tbnet/test/echoserver
 tb-common-utils/tbnet/test/httpserver
 
+tfs/src/adminserver/adminserver
+tfs/src/dataserver/dataserver
+tfs/src/nameserver/nameserver
+tfs/src/tools/dataserver/clear_file_system
+tfs/src/tools/dataserver/convert_name
+tfs/src/tools/dataserver/ds_client
+tfs/src/tools/dataserver/format_file_system
+tfs/src/tools/dataserver/modify_super_block
+tfs/src/tools/dataserver/read_index_tool
+tfs/src/tools/dataserver/read_super_block
+tfs/src/tools/dataserver/reloadconfig
+tfs/src/tools/dataserver/replblk
+tfs/src/tools/dataserver/reverse_name
+tfs/src/tools/dataserver/tfsping
+tfs/src/tools/dataserver/view_local_key
+tfs/src/tools/nameserver/admintool
+tfs/src/tools/nameserver/rmsyncoplog
+tfs/src/tools/nameserver/showsyncoplog
+tfs/src/tools/nameserver/ssm
+tfs/src/tools/nameserver/tfstool
+
 .libs/
 .deps/
 autom4te.cache/

@@ -140,7 +140,7 @@ namespace tfs
       NsSyncDataFlag sync_oplog_flag_;
       void initialize();
       void dump(int32_t level, const char* file = __FILE__, const int32_t line = __LINE__, const char* function =
-          __FUNCTION__) const;
+          __FUNCTION__, int tid = 0) const;
       static NsRuntimeGlobalInformation& instance();
       static NsRuntimeGlobalInformation instance_;
     };

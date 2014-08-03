@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/bash
 
 # libtoolT - Provide generalized library-building support services.
 # Generated automatically by  (GNU tfs 1.4)
@@ -47,7 +47,7 @@ available_tags=" CXX"
 # Libtool was configured on host xsw-VirtualBox:
 
 # Shell to use when invoking shell scripts.
-SHELL="/bin/sh"
+SHELL="/bin/bash"
 
 # Whether or not to build shared libraries.
 build_libtool_libs=yes
@@ -97,7 +97,7 @@ gcc_dir=`gcc -print-file-name=. | /bin/sed 's,/\.$,,'`
 gcc_ver=`gcc -dumpversion`
 
 # An ERE matcher.
-EGREP="grep -E"
+EGREP="/bin/grep -E"
 
 # The linker used to build libraries.
 LD="/usr/bin/ld -m elf_x86_64"
@@ -7269,7 +7269,7 @@ disable_libs=static
 # Libtool was configured on host xsw-VirtualBox:
 
 # Shell to use when invoking shell scripts.
-SHELL="/bin/sh"
+SHELL="/bin/bash"
 
 # Whether or not to build shared libraries.
 build_libtool_libs=yes
@@ -7319,7 +7319,7 @@ gcc_dir=`gcc -print-file-name=. | /bin/sed 's,/\.$,,'`
 gcc_ver=`gcc -dumpversion`
 
 # An ERE matcher.
-EGREP="grep -E"
+EGREP="/bin/grep -E"
 
 # The linker used to build libraries.
 LD="/usr/bin/ld -m elf_x86_64"

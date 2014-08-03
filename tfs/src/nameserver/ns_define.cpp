@@ -95,13 +95,14 @@ namespace tfs
       sync_oplog_flag_ = NS_SYNC_DATA_FLAG_NONE;
     }
 
-    void NsRuntimeGlobalInformation::dump(int32_t level, const char* file , const int32_t line , const char* function ) const
+    void NsRuntimeGlobalInformation::dump(int32_t level, const char* file , const int32_t line , const char* function, int) const
     {
       TBSYS_LOGGER.logMessage(
           level,
           file,
           line,
           function,
+          pthread_self(),
           "owner ip port: %s, other side ip port: %s, switch time: %s, vip: %s\
           ,destroy flag: %s, owner role: %s, other side role: %s, owner status: %s, other side status: %s\
           ,sync oplog flag: %s, last owner check time: %s, last push owner check packet time: %s",
