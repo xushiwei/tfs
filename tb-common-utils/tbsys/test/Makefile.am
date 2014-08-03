@@ -4,7 +4,7 @@ AM_LDFLAGS="-lrt -lm -lpthread"
 
 noinst_PROGRAMS=testfilequeue testqueuethread testconfig \
                 teststringutil testnetutil testlog \
-                testfileutil testtimeutil testthread\
+                testfileutil testtimeutil testthread \
                 testtimer testthreadpool testService \
 								testwarningbuffer
 

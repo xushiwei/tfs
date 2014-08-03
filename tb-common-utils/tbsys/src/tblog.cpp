@@ -320,7 +320,7 @@ void CLogger::checkFile()
     }
 }
 
-CLogger::CLogger& CLogger::getLogger()
+CLogger& CLogger::getLogger()
 {
   static CLogger logger;
   return logger;

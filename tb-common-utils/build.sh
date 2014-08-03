@@ -12,7 +12,7 @@ BASE_HOME="`pwd`"
 cd $BASE_HOME/tbsys
 if [ -z "$1" -o "$1" = 'make' ]; then  
 	sh autogen.sh
-	CXXFLAGS='-O3 -Wall -D_NO_EXCEPTION' ./configure
+	CXXFLAGS='-O3 -Wall -Wno-deprecated -D_NO_EXCEPTION' ./configure
 	make -j 8
 fi
 if [ -z "$1" -o "$1" = 'make' -o "$1" = 'install' ]; then 
