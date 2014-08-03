@@ -61,6 +61,18 @@ tfs/src/tools/nameserver/rmsyncoplog
 tfs/src/tools/nameserver/showsyncoplog
 tfs/src/tools/nameserver/ssm
 tfs/src/tools/nameserver/tfstool
+tfs/src/tools/nameserver/performance
+tfs/src/tools/nameserver/syncbyfile
+tfs/src/tools/adminserver/admintool
+tfs/src/tools/cluster/blocktool
+tfs/src/tools/cluster/get_diff_block
+tfs/src/tools/cluster/sync_log
+tfs/src/tools/mock/mock_data_server
+tfs/src/tools/transfer/compare_crc
+tfs/src/tools/transfer/split_block_tool
+tfs/src/tools/transfer/transfer_block
+tfs/src/monitor/nameserver_ha_monitor
+tfs/src/rcserver/rcserver
 
 .libs/
 .deps/

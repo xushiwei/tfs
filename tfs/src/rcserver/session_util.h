@@ -2,6 +2,7 @@
 #define TFS_RCSERVER_SESSIONUTIL_H_
 
 #include <string>
+#include <cstdlib>
 
 namespace tfs
 {
